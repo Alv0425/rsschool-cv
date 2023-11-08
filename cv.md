@@ -15,11 +15,35 @@
  - **[FreeCodeCamp](https://www.freecodecamp.org/)** (in progress)
  - **RS Schools: Course «JavaScript/Front-end. Stage 0»** ([certificate](https://app.rs.school/certificate/j77h435w))
  - **RS Schools: Course «JavaScript/Front-end. Stage 1»** (in progress)
+
 ### Skills:
 
 ### Code example:
-```javascript
+[Codewars kata: Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c): Write a function that accepts a square matrix (N x N 2D array) and returns the determinant of the matrix.
 
+```javascript
+  function determinant(m) {
+    const getMinor = (matrix, index) => {
+      let size = matrix.length;
+      return matrix.slice(1,size).map((el) => {
+        return el.slice(0,index).concat(el.slice(index + 1, size));
+      });
+    }
+    const size = m.length;
+    if (size === 1) {
+      return m[0][0];
+    } 
+    if (size === 2) {
+      return (m[0][0] * m[1][1]) - (m[0][1] * m[1][0]);
+    }
+    if (size >=3) {
+      let det = 0;
+      for (let i = 0; i < size; i++) {
+        det += ((-1) ** i) * m[0][i] * determinant(getMinor(m, i));
+      }
+      return det;
+    }
+  }
 
 ```
 ### Languages: 
