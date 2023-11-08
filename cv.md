@@ -2,7 +2,9 @@
 **Curriculum Vitae** / **last update: 08.11.2023**
 ### Summary:
 
+
 ### Contacts:
+  - **Location:** Belarus
   - **e-mail:** [vilejshikova@gmail.com](mailto:vilejshikova@gmail.com)
   - **discord:** [Aliona#7409](https://discordapp.com/users/1122842754175742052/)
   - **github:** [@Alv0425](https://github.com/Alv0425)
@@ -40,7 +42,7 @@
     if (size === 2) {
       return (m[0][0] * m[1][1]) - (m[0][1] * m[1][0]);
     }
-    if (size >=3) {
+    if (size >= 3) {
       let det = 0;
       for (let i = 0; i < size; i++) {
         det += ((-1) ** i) * m[0][i] * determinant(getMinor(m, i));
