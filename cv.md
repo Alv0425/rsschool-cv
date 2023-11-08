@@ -1,7 +1,7 @@
 # Elena Vileishikova
 **Curriculum Vitae** / **last update: 08.11.2023**
 ### Summary:
-
+Hello! I'm Alena, from Belarus, and I'm happy to be a student of the Rolling Scopes School JS/FE course, as you probably is. I have an experience as a researcher, as a teacher and also have a degree in physics. My programming experience is not strong enough, but I do the best and gain it to become a qualified developer. I know a little Python, C languages, used MATLAB, and have base knowledgelege of JS. The latter seems to me a very interesting and promising language and I enjoy learning it. Thanks to the community of RSS this process occurs very fun and engaging. I wish you successful training and effective practice and hope we will work together soon. If you have a questions, please, feel free to contact with me.
 
 ### Contacts:
   - **Location:** Belarus
