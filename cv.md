@@ -52,6 +52,12 @@ Hello! I'm Alena, from Belarus, and I'm happy to be a student of the Rolling Sco
   }
 
 ```
+### Projects:
+- **[Brooklyn Public Library](https://alv0425.github.io/JSS0-PRESCHOOL-2023Q2/library/)** - interactive layout. Pure JS, HTML & CSS was used. Registration / log-in and subscription demo was implemented using ``LocalStorage``.
+- **[JS-30: audio-player](https://alv0425.github.io/JSS0-PRESCHOOL-2023Q2/audio-player/)** - audio-player with fixed playlist: pure JS, HTML, CSS.
+- **[JS-30: image-gallery](https://alv0425.github.io/JSS0-PRESCHOOL-2023Q2/image-gallery/)** - image grid generator based on Unsplash and Flickr API.
+- **[JS-30: random-game](https://alv0425.github.io/JSS0-PRESCHOOL-2023Q2/random-game/)** - Water Sort Puzzle
+
 ### Languages: 
 - **English** - Intermediate[^2] 
 - **Belarusian** - Native
