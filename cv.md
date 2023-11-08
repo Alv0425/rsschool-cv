@@ -17,6 +17,10 @@
  - **RS Schools: Course «JavaScript/Front-end. Stage 1»** (in progress)
 
 ### Skills:
+  - **Programming skills[^1]:** MATLAB, Python, C, JS 
+  - **Markup**: HTML, Markdown
+  - **SSLs & preprocessors**: CSS, SCSS[^1]
+  - **VCS**: git, github
 
 ### Code example:
 [Codewars kata: Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c): Write a function that accepts a square matrix (N x N 2D array) and returns the determinant of the matrix.
@@ -25,8 +29,8 @@
   function determinant(m) {
     const getMinor = (matrix, index) => {
       let size = matrix.length;
-      return matrix.slice(1,size).map((el) => {
-        return el.slice(0,index).concat(el.slice(index + 1, size));
+      return matrix.slice(1, size).map((el) => {
+        return el.slice(0, index).concat(el.slice(index + 1, size));
       });
     }
     const size = m.length;
@@ -47,3 +51,10 @@
 
 ```
 ### Languages: 
+- **English** - Intermediate[^2] 
+- **Belarusian** - Native
+- **Russian** - Native
+- **Polish** - Basic
+
+[^1]: Limited experience
+[^2]: I have some practical experience via communication with colleagues, participatig in conferences, writing articles etc.
